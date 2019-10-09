@@ -2,7 +2,7 @@
 
 ## Vscode
 
-- _settingd.json_ <br />
+- _settings.json_ <br />
   {
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
@@ -32,6 +32,21 @@
   "prettier.singleQuote": true,
   "[plaintext]": {}
   }
+
+# Extensions
+
+- Bookmarks
+- Bootstrap4
+- Prettier
+- CSS Formatter
+- Docker
+- EditorConfig
+- GitLens
+- Identical Sublime
+- Material Icon Theme
+- Javascript (ES6)
+- Rocketseat React Native
+- Rocketseat React
 
 # Dependências Inicias
 
