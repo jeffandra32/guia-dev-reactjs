@@ -1,4 +1,37 @@
-## Configurar estrutura React.JS
+# Configurar estrutura React.JS
+
+## Vscode
+
+- _settingd.json_ <br />
+  {
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 1,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "extensions.ignoreRecommendations": true,
+  "editor.fontSize": 15,
+  "git.autofetch": true,
+  "editor.suggestSelection": "first",
+  "files.autoSave": "off",
+  "workbench.colorTheme": "Sublime Monokai",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 14,
+  "emmet.syntaxProfiles": {
+  "javascript": "jsx"
+  },
+  "breadcrumbs.enabled": true,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "[plaintext]": {}
+  }
 
 # Dependências Inicias
 
@@ -56,6 +89,12 @@ yarn-debug.log*
 yarn-error.log\*
 
 # Estrutura Inicial
+
+### Dependências
+
+- `yarn add react-router-dom`
+
+### Códigos
 
 - _package.js_ <br />
   `"scripts": { "build": "webpack --mode development" }`
