@@ -77,8 +77,6 @@
 
 - _.gitignore_ <br />
 
-### See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 /node_modules
 /.pnp
 .pnp.js
@@ -108,6 +106,7 @@ yarn-error.log\*
 ### Dependências
 
 - `yarn add react-router-dom`
+- `yarn add styled-components`
 
 ### Códigos
 
@@ -116,3 +115,10 @@ yarn-error.log\*
 
 - _index.js_ <br />
   `import React from 'react'; import ReactDOM from 'react-dom'; import App from './App'; ReactDOM.render(<App />, document.getElementById('root'));`
+
+- _router.js_ <br />
+  `import { BrowserRouter, Switch, Route } from 'react-router-dom'; export default function Routes() { return ( <BrowserRouter> <Switch> <Route path="/" exact component={Main} /> <Route path="" component={} /> </Switch> </BrowserRouter> ); }`
+
+- _styles.js_ <br />
+  `import styled, { keyframes, css } from 'styled-components';`  
+  export const Form = styled.form`margin-top: 30px; display: flex; flex-direction: row; input { flex: 1; border: 1px solid \${props => (props.error ? '#ff6b6b' : '#eee')}; padding: 10px 15px; border-radius: 4px; font-size: 16px; transition: border 0.25s ease-out;}`;`
