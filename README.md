@@ -25,23 +25,21 @@
 
 - _.gitignore_ <br />
 
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
+### See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 /node_modules
 /.pnp
 .pnp.js
 
-# testing
+### testing
 
 /coverage
 
-# production
+### production
 
 /build
 
-# misc
+### misc
 
 .DS_Store
 .env.local
