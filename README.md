@@ -107,6 +107,9 @@ yarn-error.log\*
 
 - `yarn add react-router-dom`
 - `yarn add styled-components`
+- `yarn add react-icons`
+- `yarn add axios`
+- `yarn add prop-types`
 
 ### Códigos
 
@@ -120,5 +123,5 @@ yarn-error.log\*
   `import { BrowserRouter, Switch, Route } from 'react-router-dom'; export default function Routes() { return ( <BrowserRouter> <Switch> <Route path="/" exact component={Main} /> <Route path="" component={} /> </Switch> </BrowserRouter> ); }`
 
 - _styles.js_ <br />
-  `import styled, { keyframes, css } from 'styled-components';`  
+  `import styled, { keyframes, css } from 'styled-components';`
   export const Form = styled.form`margin-top: 30px; display: flex; flex-direction: row; input { flex: 1; border: 1px solid \${props => (props.error ? '#ff6b6b' : '#eee')}; padding: 10px 15px; border-radius: 4px; font-size: 16px; transition: border 0.25s ease-out;}`;`
