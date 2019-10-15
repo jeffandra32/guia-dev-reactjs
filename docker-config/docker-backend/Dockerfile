@@ -14,7 +14,7 @@ RUN yarn
 COPY . ./
 
 #informar qual porta o serviço está rodando
-EXPOSE 80
+EXPOSE 3022
 
 #informar comandos para execução no package.js
 CMD [ "yarn", "start" ]

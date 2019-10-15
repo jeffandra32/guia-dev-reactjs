@@ -77,3 +77,14 @@ _Use o seguinte comando para configurar o repositório estável. Para adicionar 
 <b>_Roda a aplicação_</b>
 
 - `docker-compose up`
+
+<b>_Inspecionar images_</b>
+
+- `docker inspect <nome-image>`
+
+<b>_Subir image para Docker Hub_</b>
+
+- `docker build -t <nome-usuario>/<nome-image>:<version> .`
+- `docker tag <id-image> <nome-usuario>/<nome-image>:<version>`
+- `docker login`
+- `docker push <nome-usuario>/<nome-image>:<version>`
