@@ -42,6 +42,10 @@ _Use o seguinte comando para configurar o repositório estável. Para adicionar 
 
 `docker-compose --version`
 
+# Upgrading
+
+`docker-compose migrate-to-labels`
+
 # Uninstallation
 
 `sudo rm /usr/local/bin/docker-compose`
