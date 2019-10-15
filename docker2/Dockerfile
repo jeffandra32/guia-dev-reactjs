@@ -10,3 +10,12 @@ COPY package*.json ./
 #instala as depedências yarn || npm
 RUN yarn
 
+#copiar todos os códigos fontes
+COPY . ./
+
+#informar qual porta o serviço está rodando
+EXPOSE 80
+
+#informar comandos para execução no package.js
+CMD [ "yarn", "start" ]
+

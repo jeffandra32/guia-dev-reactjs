@@ -38,9 +38,9 @@ _Verificar versão do docker_
 
 - `docker version`
 
-_Construir uma imagem_
+_Construir o projeto e baixar as imagens_
 
-- `docker build`
+- `docker build -t <nome-diretorio> .`
 
 _Realiza um pull de uma imagem dentro do repositório do docker_
 
@@ -48,16 +48,32 @@ _Realiza um pull de uma imagem dentro do repositório do docker_
 
 _Roda uma imagem no servidor local_
 
-- `docker run`
+- `docker run -d <nome-image>`
 
-_listar images_
+_Roda o container dentro da imagem do repositório_
+
+- `docker run -it <imagem> bash`
+
+_Listar images_
 
 - `docker images`
 
-_listar containers em execução_
+_Remover images_
+
+- `docker rmi <nome-image>`
+
+_Listar containers em execução_
 
 - `docker ps`
 
-_listar todos os containers_
+_Listar todos os containers_
 
 - `docker ps -a`
+
+_todo_
+
+- `docker-compose up --build`
+
+_Roda a aplicação_
+
+- `docker-compose up`
