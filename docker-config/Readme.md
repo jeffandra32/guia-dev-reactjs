@@ -90,7 +90,7 @@ _Use o seguinte comando para configurar o repositório estável. Para adicionar 
 
 - `docker ps -a`
 
-<b>_todo_</b>
+<b>_build da aplicação_</b>
 
 - `docker-compose up --build`
 
