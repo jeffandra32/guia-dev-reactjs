@@ -6,6 +6,8 @@ _https://docs.docker.com/install/linux/docker-ce/ubuntu/_
 
 _https://hub.docker.com/_
 
+_https://docs.docker.com/compose/install/_
+
 ## Uninstall old versions
 
 `sudo apt-get remove docker docker-engine docker.io containerd runc`
@@ -31,6 +33,20 @@ _Verifique se agora você possui a chave com a impressão digital 9DC8 5822 9FC7
 _Use o seguinte comando para configurar o repositório estável. Para adicionar o repositório noturno ou de teste, adicione a palavra noturno ou teste (ou ambos) após a palavra estável nos comandos abaixo. Aprenda sobre os canais noturnos e de teste._
 
 `sudo add-apt-repository \ "deb [arch=amd64] https://download.docker.com/linux/ubuntu \ $(lsb_release -cs) \ stable"`
+
+## Install Docker Compose
+
+`Invoke-WebRequest "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-Windows-x86_64.exe" -UseBasicParsing -OutFile $Env:ProgramFiles\Docker\docker-compose.exe`
+
+# Test the installation.
+
+`docker-compose --version`
+
+# Uninstallation
+
+`sudo rm /usr/local/bin/docker-compose`
+
+---
 
 ## Comandos do Docker
 
