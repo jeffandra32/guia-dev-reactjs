@@ -34,46 +34,46 @@ _Use o seguinte comando para configurar o repositório estável. Para adicionar 
 
 ## Comandos do Docker
 
-_Verificar versão do docker_
+<b>_Verificar versão do docker_</b>
 
 - `docker version`
 
-_Construir o projeto e baixar as imagens_
+<b>_Construir o projeto e baixar as imagens_</b>
 
 - `docker build -t <nome-diretorio> .`
 
-_Realiza um pull de uma imagem dentro do repositório do docker_
+<b>_Realiza um pull de uma imagem dentro do repositório do docker_</b>
 
 - `docker pull`
 
-_Roda uma imagem no servidor local_
+<b>_Roda uma imagem no servidor local_</b>
 
 - `docker run -d <nome-image>`
 
-_Roda o container dentro da imagem do repositório_
+<b>_Roda o container dentro da imagem do repositório_</b>
 
 - `docker run -it <imagem> bash`
 
-_Listar images_
+<b>_Listar images_</b>
 
 - `docker images`
 
-_Remover images_
+<b>_Remover images_</b>
 
 - `docker rmi <nome-image>`
 
-_Listar containers em execução_
+<b>_Listar containers em execução_</b>
 
 - `docker ps`
 
-_Listar todos os containers_
+<b>_Listar todos os containers_</b>
 
 - `docker ps -a`
 
-_todo_
+<b>_todo_</b>
 
 - `docker-compose up --build`
 
-_Roda a aplicação_
+<b>_Roda a aplicação_</b>
 
 - `docker-compose up`
