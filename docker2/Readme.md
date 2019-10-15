@@ -4,6 +4,8 @@
 
 _https://docs.docker.com/install/linux/docker-ce/ubuntu/_
 
+_https://hub.docker.com/_
+
 ## Uninstall old versions
 
 `sudo apt-get remove docker docker-engine docker.io containerd runc`
@@ -32,6 +34,30 @@ _Use o seguinte comando para configurar o repositório estável. Para adicionar 
 
 ## Comandos do Docker
 
+_Verificar versão do docker_
+
+- `docker version`
+
+_Construir uma imagem_
+
 - `docker build`
+
+_Realiza um pull de uma imagem dentro do repositório do docker_
+
 - `docker pull`
+
+_Roda uma imagem no servidor local_
+
 - `docker run`
+
+_listar images_
+
+- `docker images`
+
+_listar containers em execução_
+
+- `docker ps`
+
+_listar todos os containers_
+
+- `docker ps -a`
