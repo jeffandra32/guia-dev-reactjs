@@ -34,19 +34,19 @@ _Use o seguinte comando para configurar o repositório estável. Para adicionar 
 
 `sudo add-apt-repository \ "deb [arch=amd64] https://download.docker.com/linux/ubuntu \ $(lsb_release -cs) \ stable"`
 
-## Install Docker Compose
+# Install Docker Compose
 
 `Invoke-WebRequest "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-Windows-x86_64.exe" -UseBasicParsing -OutFile $Env:ProgramFiles\Docker\docker-compose.exe`
 
-# Test the installation.
+## Test the installation.
 
 `docker-compose --version`
 
-# Upgrading
+## Upgrading
 
 `docker-compose migrate-to-labels`
 
-# Uninstallation
+## Uninstallation
 
 `sudo rm /usr/local/bin/docker-compose`
 
